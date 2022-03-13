@@ -15,5 +15,19 @@ prefix = "8"
 suffix = random.choice(suffix_list)
 
 
+def creator():
+    print("""
+██╗░░██╗░██╗░░░░░░░██╗░░░░░██╗
+██║░░██║░██║░░██╗░░██║░░░░░██║
+███████║░╚██╗████╗██╔╝░░░░░██║
+██╔══██║░░████╔═████║░██╗░░██║
+██║░░██║░░╚██╔╝░╚██╔╝░╚█████╔╝
+╚═╝░░╚═╝░░░╚═╝░░░╚═╝░░░╚════╝░""")
+
 #prints the whole thing
-print(prefix + length + suffix)
+def print_pp():
+    print(prefix + length + suffix)
+
+if __name__ == "__main__":
+    creator()
+    print_pp()
