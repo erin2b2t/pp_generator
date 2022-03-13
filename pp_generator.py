@@ -15,6 +15,7 @@ prefix = "8"
 suffix = random.choice(suffix_list)
 
 
+#function to print my name
 def creator():
     print("""
 ██╗░░██╗░██╗░░░░░░░██╗░░░░░██╗
@@ -24,10 +25,11 @@ def creator():
 ██║░░██║░░╚██╔╝░╚██╔╝░╚█████╔╝
 ╚═╝░░╚═╝░░░╚═╝░░░╚═╝░░░╚════╝░""")
 
-#prints the whole thing
+#function to print the pp
 def print_pp():
     print(prefix + length + suffix)
 
+#here we call the functions
 if __name__ == "__main__":
     creator()
     print_pp()
